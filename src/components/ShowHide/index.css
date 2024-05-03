@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7, #dd1264);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bg-container div {
+  display: flex;
+  justify-content: center;
+}
+.first-card {
+  flex-direction: column;
+  margin: 20px;
+}
+.second-card {
+  flex-direction: column;
+  margin: 20px;
+}
+.first-card div {
+  background-color: #fddddb;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 200px;
+}
+.first-card div p {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.bg-container button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #dd1264;
+  border: none;
+  padding: 10px;
+  margin: 20px;
+}
+.button-cont {
+  display: flex;
+}
+.first-container {
+  flex-direction: column;
+}
+.bg-container button {
+  background-color: #ffffff;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #dd1264;
+  border: none;
+  padding: 10px;
+}
+
+.second-card div {
+  background-color: #fddddb;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  width: 200px;
+}
+.second-card div p {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
